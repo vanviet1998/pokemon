@@ -9,7 +9,7 @@
         #messCard.alert.alert-success.bounceInDown.d-none(style="position: absolute;right: 100px;") nap thanh cong
       .modal-body
         .row
-            .col-md-6
+            .col-md-5
                 table.table(style="font-size: 14px;")
                     thead(style="font-weight: unset;color: #d43831;")
                         tr
@@ -35,13 +35,16 @@
                             td 500,000 VND
                             td Vàng x 10000
                         tr
-            .col-md-6
+            .col-md-7
                 input#tab1(type='radio', name='tabs', checked='')
-                label(for='tab1') Thẻ PokeCoin
+                label(for='tab1') PokeCoin
                 input#tab2(type='radio', name='tabs')
                 label(for='tab2') Paypal
                 input#tab3(type='radio', name='tabs')
-                label(for='tab3') Onepay
+                label(for='tab3') VNPAY
+                input#tab4(type='radio', name='tabs')
+                label(for='tab4') Braintree
+                
                 section#content1
                     form(style="padding: 20px 20px;")
                         p(htmlFor="coin") Mã nạp thẻ PokeCoin:
@@ -53,9 +56,9 @@
                         input#price(name="price",type="text", placeholder="Nhập tiền số tiền cần chuyển đổi")
                         input(type="submit" value="Xác nhận")
                 section#content3
-                    form(style="padding: 20px 20px;", method="post", action="/admin/pokemon/pay")
-                        input#price(name="price",type="text", placeholder="Nhập tiền số tiền cần chuyển đổi")
-                        input(type="submit" value="Xác nhận")
+                    include vnpay.jade
+                section#content4
+                    include braintree.jade
                 
                 
             

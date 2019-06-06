@@ -1,3 +1,5 @@
+
+
 require('./bin/database');
 var createError = require('http-errors');
 var express = require('express');
@@ -20,6 +22,11 @@ var bagsRouter=require('./routes/bags');
 var adsRouter=require('./routes/ads');
 var accountRouter=require('./routes/account');
 var PokemonRouter=require('./routes/adminpokemon');
+var adminItemsRouter=require('./routes/adminItem')
+var adminPokestop=require('./routes/adminPokestop');;
+var vnpayRouter=require('./routes/vnpay');
+var nganluongRouter=require('./routes/nganluong');
+var braintreeRouter=require('./routes/braintree');
 var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -68,9 +75,14 @@ app.use('/bags',bagsRouter);
 app.use('/admin/ads',adsRouter);
 app.use('/admin/account',accountRouter);
 app.use('/admin/pokemon',PokemonRouter);
+app.use('/admin/item',adminItemsRouter);
+app.use('/admin/pokestop',adminPokestop);
+app.use('/', nganluongRouter);
+app.use('/braintree', braintreeRouter);
 
 
-PokemonRouter
+app.use('/ads',adsRouter);
+app.use('/vnpay',vnpayRouter);
 // view engine setup
 //app.set('views', path.join(__dirname, 'views'));
 //app.set('view engine', 'jade');

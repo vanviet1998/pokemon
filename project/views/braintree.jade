@@ -1,0 +1,21 @@
+.wrapper: .checkout.container: .content(style="background:none;")
+    header
+      h1(style="padding: 15px 0;margin: 0;") Thanh toán với Braintree
+      p(style="text-align: center;margin: 0;") 1$ = 400 vàng
+      
+
+    form#payment-form(action="/braintree/checkout", method="post")
+      section
+        label(for="amount",style="padding:0;")
+          span.input-label Amount
+          .input-wrapper.amount-wrapper
+            input#amount(name="amount" type="tel" min="1" value="10")
+
+        .bt-drop-in-wrapper
+          #bt-dropin
+
+      
+      button.button(type="submit")
+        span Thanh Toán
+  
+

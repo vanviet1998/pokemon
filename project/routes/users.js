@@ -4,8 +4,8 @@ var async = require("async");
 var user = require('../models/user');
 var bag = require('../models/bag');
 var Bag = require('../models/bag.js');
-router.get('/',function(req, res){
-    user.findOne({ _id: req.user._id })
+router.get('/',async function(req, res){
+    await user.findOne({ _id: req.user._id })
         .populate({
             path: 'bag',
             populate: {path: 'pokemons._id'}

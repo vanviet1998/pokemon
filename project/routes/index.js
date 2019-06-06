@@ -42,4 +42,6 @@ router.post('/adv/', upload.single('image'), (req, res) => {
     res.render('error', { message: 'Ddangw ki thang cong' });
 })
 
+
+
 module.exports = router;

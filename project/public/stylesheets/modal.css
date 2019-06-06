@@ -669,7 +669,8 @@ body.modal-active {
 }
 
 .nav-tabs li {
-    padding-right: 20px;
+    padding: 10px 31px;
+    text-align: center;
 }
 
 .nav-tabs a {
@@ -728,6 +729,10 @@ ul.nav.nav-tabs:after {
 .box img {
     display: block;
     width: 100%;
+}
+
+#pokemon .box img {
+    width: auto;
 }
 
 #list-friend.my-custom-scrollbar {
@@ -843,7 +848,8 @@ table.table:after {
 }
 
 #cardModal form {
-    padding: 20px 20px;
+    padding: 2px 20px;
+    text-align: center;
 }
 
 #cardModal form input {
@@ -873,4 +879,29 @@ table.table:after {
     padding: 8px 0;
     border-radius: 3px;
     cursor: pointer;
+}
+
+#createOrder label {
+    padding: 0;
+}
+
+#pokemon ul {
+    display: block;
+}
+
+#pokemon ul a {
+    color: #000;
+}
+
+#pokemon .box {
+    width: 100%;
+    display: inline-flex;
+    border-bottom: 1px solid #e9ecef;
+}
+
+@media (min-width: 576px) {
+    #pokeModal .modal-dialog {
+        max-width: 700px;
+        margin: 30px auto;
+    }
 }

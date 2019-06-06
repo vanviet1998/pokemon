@@ -3,80 +3,13 @@ var router = express.Router();
 var Pokemon = require("../models/pokemon.js")
 var multer  =   require('multer');
 TypePokemon = require("../models/typePokemon.js")
-const { OnePayDomestic } = require('vn-payments');
-const onepayDom = new OnePayDomestic({
-	paymentGateway: 'https://mtf.onepay.vn/onecomm-pay/vpc.op',
-	merchant: 'ONEPAY',
-	accessCode: 'D67342C2',
-	secureSecret: 'A3EFDFABA8653DF2342E8DAC29B51AF0',
-});
-router.post('/pay', (req, res) => {
-    const params = Object.assign({}, req.body);
-  
-    // construct checkout payload from form data and app's defaults
-    const checkoutData = {
-      amount: parseInt(params.price, 10),
-
-    };
-  
-    // buildCheckoutUrl is async operation and will return a Promise
-    onepayDom
-      .buildCheckoutUrl(checkoutData)
-      .then(checkoutUrl => {
-        res.writeHead(301, { Location: `http://${req.headers.host}/payment/onepaydom/callback`});
-        res.end();
-      })
-      .catch(err => {
-        res.send(err);
-      });
-  });
-  router.get('/payment/callback', (req, res) => {
-    const query = req.query;
-  
-    onepayIntl.verifyReturnUrl(query).then(results => {
-      if (results.isSucceed) {
-        res.render('success', {
-          title: 'Nau Store - Thank You',
-          orderId: results.orderId,
-          price: results.price,
-          message: results.message,
-        });
-      } else {
-        res.render('errors', {
-          title: 'Nau Store - Payment Errors',
-          message: results.message,
-        });
-      }
-    });
-  });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+var img
 var storage = multer.diskStorage({
     destination: function(req, file, cb) {
         cb(null, 'public/images/pokemon')
     },
     filename: function(req, file, cb) {
+         img ='images/Pokemon/' +Date.now() + "-" +file.originalname;
         cb(null, Date.now() +"-" + file.originalname)
     }
 })
@@ -84,7 +17,7 @@ var upload = multer({ storage : storage}).single('anh');
 router.post('/edit',function(req,res,next){
     upload(req, res, function(err) {
         if(err)return err;
-       var img ='images/Pokemon/' +Date.now() + "-" + req.file.originalname;
+      
        console.log(img,req.body.namePokemon)
        Pokemon.findByIdAndUpdate({_id:req.body.id},{$set:{namePokemon:req.body.namePokemon,
         imagePokemon:img,CP:req.body.CP,typePokemons:req.body.typePokemons}}).then(d =>{

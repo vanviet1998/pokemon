@@ -8,6 +8,9 @@ html(lang='en')
     link(rel="stylesheet", href="stylesheets/index.css")
     link(rel="stylesheet", href="stylesheets/modal.css")
     link(rel="stylesheet", href="stylesheets/vendor/animate.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.css")
+    script(src='https://js.braintreegateway.com/web/dropin/1.18.0/js/dropin.min.js')
+    
     script(async='', defer='', crossorigin='anonymous', src='https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.3')
     title Pokemon Go
     style.
@@ -33,6 +36,7 @@ html(lang='en')
     include modal-contact.jade
     include modal-shop.jade
     include modal-card.jade
+    include modal-pokemon.jade
     .navigation
       a.button(href='/signout')
         img(src='../images/user-logout.png')
@@ -57,6 +61,9 @@ html(lang='en')
     if _id
       input(type='hidden' value='#{_id}' id='_id') 
     
+    script(src='https://apis.google.com/js/platform.js')
+    .youtube-api
+      .g-ytsubscribe(data-channelid='UC1-JAi08CCplQaPBBHwHbOA', data-layout='default', data-count='default')
     
     script(src='/javascripts/vendor/jquery-3.2.1.min.js')
     script(src='/javascripts/getCurrentLocation.js')
@@ -68,13 +75,48 @@ html(lang='en')
     script(src='/javascripts/vendor/popper.js')
     script(src='/javascripts/vendor/bootstrap.min.js')
 
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.js")
     script(src='/javascripts/bags.js')
     script(src='/javascripts/Items.js')
     script(src='/javascripts/catchPokemon.js')
     
-    script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBUd8Fk6RmR7qHsbsuYGD4kBUbpYp6Q7CA&callback=delayMaps', async='', defer='',type="text/javascript")
+    script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDEHnr26FuYpc2KjXhuJ36jrvSbCNC5mAg&callback=delayMaps', async='', defer='',type="text/javascript")
     script(src='/javascripts/checkInOut.js')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js')
+    script.
+      var form = document.querySelector('#payment-form');
+      
+      var clientToken;
+      $.ajax({
+      type: "get",
+      url: "/braintree/client_token",
+      dataType: "json",
+      async:false,
+      success: function (response) {
+      clientToken=response;
+      }
+      });
+      braintree.dropin.create({
+      // Insert your tokenization key here
+      authorization: clientToken,
+       container: '#bt-dropin'
+      }, function (createErr, instance) {
+      form.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        instance.requestPaymentMethod(function (err, payload) {
+          if (err) {
+            console.log('Error', err);
+            return;
+          }
+
+          // Add the nonce to the form and submit
+         // document.querySelector('#nonce').value = payload.nonce;
+          form.submit();
+        });
+      });
+      });
+
     #fb-root
     
     

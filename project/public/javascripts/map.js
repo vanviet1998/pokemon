@@ -224,7 +224,7 @@ var res=[];
 function populateMarkers() {
  
   apiLoc = typeof apiLoc !== 'undefined' ? apiLoc : '/pokemon/get';
-  var arr= generateRandomPoints({'lat':position[0], 'lng':position[1]},2000,29); // tạo trong bán kính 2000, số lượng 12
+  var arr= generateRandomPoints({'lat':position[0], 'lng':position[1]},2000,100); // tạo trong bán kính 2000, số lượng 12
   // jQuery AJAX call for JSON
   
   let i=0;

@@ -1,0 +1,33 @@
+input.poke-index(type="image",src="images/poke-index.png",data-toggle='modal', data-target='#pokeModal')
+// Modal
+#pokeModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+  .modal-dialog(role='document')
+    .modal-content
+      .modal-header
+        .closeModal(data-dismiss='modal')
+          img(src="images/cancel2.png", alt="close")
+      .modal-body(style="background: burlywood;")
+        #pokemon.tab-pane.fade.in.active.show
+            .row#searchPokemon(style="display: block;margin: 0;text-align: right;")
+                p(style="display: inline-block;padding-right: 15px;") Search
+                input(type="text" name="namepoke" id="searchPoke" onkeydown="searchPoke()")
+            .row
+                .col-md-3
+                    ul.nav.nav-tabs
+                        li.active
+                            a#all(href='#list-pokemon') All
+                        li
+                            a#kanto(href='#list-kanto') Kanto
+                        li
+                            a#johto(href='#list-johto') Johto
+                        li
+                            a#hoenn(href='#list-hoenn') Hoenn
+                        li
+                            a#sinnoh(href='#list-sinnoh') Sinnoh
+                .col-md-9
+                    .tab-content
+                        #list-pokemon.tab-pane.fade.in.active.show.my-custom-scrollbar.scrollbar-lady-lips
+                        #list-kanto.tab-pane.fade.my-custom-scrollbar.scrollbar-lady-lips
+                        #list-johto.tab-pane.fade.my-custom-scrollbar.scrollbar-lady-lips
+                        #list-hoenn.tab-pane.fade.my-custom-scrollbar.scrollbar-lady-lips
+                        #list-sinnoh.tab-pane.fade.my-custom-scrollbar.scrollbar-lady-lips

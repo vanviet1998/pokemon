@@ -1,740 +1,790 @@
-[
-    {
-        "_id":"5c967522df6b630b8cf2f818",
-        "namePokemon": "Chikorita",
-        "imagePokemon": "images/Pokemon/Chikorita.png",
+[{
+        "_id": "5c967522df6b630b8cf2f818",
+        "namePokemon": "Bellsprout",
+        "imagePokemon": "images/Pokemon/Johto/Bellsprout.gif",
         "CP": 343,
+        "upgrade": "5c967522df6b630b8cf2f819",
         "typePokemons": "5c967763df6b630b8cf2f815"
     },
     {
-        "_id":"5c967522df6b630b8cf2f819",
-        "namePokemon": "Bayleef",
-        "imagePokemon": "images/Pokemon/Bayleef.png",
+        "_id": "5c967522df6b630b8cf2f819",
+        "namePokemon": "Victreebel",
+        "imagePokemon": "images/Pokemon/Johto/upgrade/Victreebel.gif",
         "CP": 129,
         "typePokemons": "5c967763df6b630b8cf2f815"
     },
     {
-        "_id":"5c967522df6b630b8cf2f820",
-        "namePokemon": "Pidgey",
-        "imagePokemon": "images/Pokemon/Pidgey.png",
+        "_id": "5c967522df6b630b8cf2f820",
+        "namePokemon": "Bulbasaur",
+        "imagePokemon": "images/Pokemon/Johto/Bulbasaur.gif",
+        "upgrade": "5c967522df6b630b8cf2f821",
         "CP": 331,
         "typePokemons": "5c967763df6b630b8cf2f815"
     },
 
 
     {
-        "_id":"5c967522df6b630b8cf2f821",
-        "namePokemon": "Pidgeotto",
-        "imagePokemon": "images/Pokemon/Pidgeotto.png",
-        "CP": 1085,
+        "_id": "5c967522df6b630b8cf2f821",
+        "namePokemon": "Venusaur",
+        "imagePokemon": "images/Pokemon/Johto/upgrade/Venusaur.gif",
+        "CP": 500,
         "typePokemons": "5c967763df6b630b8cf2f815"
     },
 
     {
-        "_id":"5c967522df6b630b8cf2f822",
-        "namePokemon": "Pidgeot",
-        "imagePokemon": "images/Pokemon/Pidgeot.png",
+        "_id": "5c967522df6b630b8cf2f822",
+        "namePokemon": "Charmander",
+        "imagePokemon": "images/Pokemon/Johto/Charmander.gif",
+        "upgrade": "5c967522df6b630b8cf2f823",
         "CP": 1994,
         "typePokemons": "5c967763df6b630b8cf2f815"
     },
 
 
     {
-        "_id":"5c967522df6b630b8cf2f823",
-        "namePokemon": "Spearow",
-        "imagePokemon": "images/Pokemon/Spearow.png",
+        "_id": "5c967522df6b630b8cf2f823",
+        "namePokemon": "Charizard",
+        "imagePokemon": "images/Pokemon/Johto/upgrade/Charizard.gif",
         "CP": 442,
         "typePokemons": "5c967763df6b630b8cf2f815"
     },
 
 
     {
-        "_id":"5c967522df6b630b8cf2f824",
-        "namePokemon": "Fearow",
-        "imagePokemon": "images/Pokemon/Fearow.png",
+        "_id": "5c967522df6b630b8cf2f824",
+        "namePokemon": "Ekans",
+        "imagePokemon": "images/Pokemon/Johto/Ekans.gif",
+        "upgrade": "5c967522df6b630b8cf2f825",
         "CP": 1814,
         "typePokemons": "5c967763df6b630b8cf2f815"
     },
 
     {
-        "_id":"5c967522df6b630b8cf2f825",
-        "namePokemon": "Rattata",
-        "imagePokemon": "images/Pokemon/Rattata.png",
+        "_id": "5c967522df6b630b8cf2f825",
+        "namePokemon": "Arbok",
+        "imagePokemon": "images/Pokemon/Johto/upgrade/Arbok.gif",
         "CP": 336,
         "typePokemons": "5c967763df6b630b8cf2f815"
     },
 
 
     {
-        "_id":"5c967522df6b630b8cf2f826",
-        "namePokemon": "Raticate",
-        "imagePokemon": "images/Pokemon/Raticate.png",
+        "_id": "5c967522df6b630b8cf2f826",
+        "namePokemon": "Gastly",
+        "imagePokemon": "images/Pokemon/Johto/Gastly.gif",
+        "upgrade": "5c967522df6b630b8cf2f827",
         "CP": 1107,
         "typePokemons": "5c967763df6b630b8cf2f815"
     },
 
 
     {
-        "_id":"5c967522df6b630b8cf2f827",
+        "_id": "5c967522df6b630b8cf2f827",
+        "namePokemon": "Cloyster",
+        "imagePokemon": "images/Pokemon/Johto/upgrade/Cloyster.gif",
+        "CP": 787,
+        "typePokemons": "5c967763df6b630b8cf2f815"
+    },
+    {
+        "_id": "5c967522df6b630b8cf2f828",
+        "namePokemon": "Growlithe",
+        "imagePokemon": "images/Pokemon/Johto/Growlithe.gif",
+        "upgrade": "5c967522df6b630b8cf2f829",
+        "CP": 2015,
+        "typePokemons": "5c967763df6b630b8cf2f815"
+    },
+
+    {
+        "_id": "5c967522df6b630b8cf2f829",
+        "namePokemon": "Arcanine",
+        "imagePokemon": "images/Pokemon/Johto/upgrade/Arcanine.gif",
+        "CP": 168,
+        "typePokemons": "5c967763df6b630b8cf2f815"
+    },
+    {
+        "_id": "5c967522df6b630b8cf2f830",
+        "namePokemon": "Jigglypuff",
+        "imagePokemon": "images/Pokemon/Johto/Jigglypuff.gif",
+        "upgrade": "5c967522df6b630b8cf2f831",
+        "CP": 357,
+        "typePokemons": "5c967763df6b630b8cf2f815"
+    },
+    {
+        "_id": "5c967522df6b630b8cf2f831",
+        "namePokemon": "Wigglytuff",
+        "imagePokemon": "images/Pokemon/Johto/upgrade/Wigglytuff.gif",
+        "CP": 728,
+        "typePokemons": "5c967763df6b630b8cf2f815"
+    },
+    {
+        "_id": "5c967522df6b630b8cf2f832",
+        "namePokemon": "Krabby",
+        "imagePokemon": "images/Pokemon/Johto/Krabby.gif",
+        "upgrade": "5c967522df6b630b8cf2f833",
+        "CP": 227,
+        "typePokemons": "5c967763df6b630b8cf2f815"
+    },
+    {
+        "_id": "5c967522df6b630b8cf2f833",
+        "namePokemon": "Kingler",
+        "imagePokemon": "images/Pokemon/Johto/upgrade/Kingler.gif",
+        "CP": 224,
+        "typePokemons": "5c967763df6b630b8cf2f815"
+    },
+    {
+        "_id": "5c967522df6b630b8cf2f834",
+        "namePokemon": "Nidoran",
+        "imagePokemon": "images/Pokemon/Johto/Nidoran.gif",
+        "upgrade": "5c967522df6b630b8cf2f835",
+        "CP": 1168,
+        "typePokemons": "5c967763df6b630b8cf2f815"
+    },
+    {
+        "_id": "5c967522df6b630b8cf2f835",
+        "namePokemon": "Nidoking",
+        "imagePokemon": "images/Pokemon/Johto/upgrade/Nidoking.gif",
+        "CP": 784,
+        "typePokemons": "5c967763df6b630b8cf2f815"
+    },
+    {
+        "_id": "5c967522df6b630b8cf2f836",
+        "namePokemon": "Omanyte",
+        "imagePokemon": "images/Pokemon/Johto/Omanyte.gif",
+        "upgrade": "5c967522df6b630b8cf2f837",
+        "CP": 1193,
+        "typePokemons": "5c967763df6b630b8cf2f815"
+    },
+    {
+        "_id": "5c967522df6b630b8cf2f837",
+        "namePokemon": "Omastar",
+        "imagePokemon": "images/Pokemon/Johto/upgrade/Omastar.gif",
+        "CP": 488,
+        "typePokemons": "5c967763df6b630b8cf2f815"
+    },
+    {
+        "_id": "5c967522df6b630b8cf2f838",
+        "namePokemon": "Pidgey",
+        "imagePokemon": "images/Pokemon/Johto/Pidgey.gif",
+        "upgrade": "5c967522df6b630b8cf2f839",
+        "CP": 1203,
+        "typePokemons": "5c967763df6b630b8cf2f815"
+    },
+    {
+        "_id": "5c967522df6b630b8cf2f839",
+        "namePokemon": "Pidgeotto",
+        "imagePokemon": "images/Pokemon/Johto/upgrade/Pidgeotto.gif",
+        "CP": 1085,
+        "typePokemons": "5c967763df6b630b8cf2f815"
+    },
+    {
+        "_id": "5c967522df6b630b8cf2f840",
         "namePokemon": "Pikachu",
-        "imagePokemon": "images/Pokemon/Pikachu.png",
-        "CP":787,
+        "imagePokemon": "images/Pokemon/Johto/Pikachu.gif",
+        "upgrade": "5c967522df6b630b8cf2f841",
+        "CP": 2353,
         "typePokemons": "5c967763df6b630b8cf2f815"
     },
     {
-        "_id":"5c967522df6b630b8cf2f828",
+        "_id": "5c967522df6b630b8cf2f841",
         "namePokemon": "Raichu",
-        "imagePokemon": "images/Pokemon/Raichu.png",
-        "CP":2015,
-        "typePokemons": "5c967763df6b630b8cf2f815"
-    },
-	
-    {
-        "_id":"5c967522df6b630b8cf2f829",
-        "namePokemon": "Caterpie",
-        "imagePokemon": "images/Pokemon/Caterpie.png",
-        "CP":168,
+        "imagePokemon": "images/Pokemon/Johto/upgrade/Raichu.gif",
+        "CP": 921,
         "typePokemons": "5c967763df6b630b8cf2f815"
     },
     {
-        "_id":"5c967522df6b630b8cf2f830",
-        "namePokemon": "Metapod",
-        "imagePokemon": "images/Pokemon/Metapod.png",
-        "CP":357,
+        "_id": "5c967522df6b630b8cf2f842",
+        "namePokemon": "Ponyta",
+        "imagePokemon": "images/Pokemon/Johto/Ponyta.gif",
+        "upgrade": "5c967522df6b630b8cf2f843",
+        "CP": 1996,
         "typePokemons": "5c967763df6b630b8cf2f815"
     },
     {
-        "_id":"5c967522df6b630b8cf2f831",
-        "namePokemon": "Butterfree",
-        "imagePokemon": "images/Pokemon/Butterfree.png",
-        "CP":728,
-        "typePokemons": "5c967763df6b630b8cf2f815"
-    },
-    {
-        "_id":"5c967522df6b630b8cf2f832",
-        "namePokemon": "Weedle",
-        "imagePokemon": "images/Pokemon/Weedle.png",
-        "CP":227,
-        "typePokemons": "5c967763df6b630b8cf2f815"
-    },
-    {
-        "_id":"5c967522df6b630b8cf2f833",
-        "namePokemon": "Kakuna",
-        "imagePokemon": "images/Pokemon/Kakuna.png",
-        "CP":224,
-        "typePokemons": "5c967763df6b630b8cf2f815"
-    },
-    {
-        "_id":"5c967522df6b630b8cf2f834",
-        "namePokemon": "Beedrill",
-        "imagePokemon": "images/Pokemon/Beedrill.png",
-        "CP":1168,
-        "typePokemons": "5c967763df6b630b8cf2f815"
-    },
-    {
-        "_id":"5c967522df6b630b8cf2f835",
-        "namePokemon": "Geodude",
-        "imagePokemon": "images/Pokemon/Geodude.png",
-        "CP":784,
-        "typePokemons": "5c967763df6b630b8cf2f815"
-    },
-     {
-        "_id":"5c967522df6b630b8cf2f836",
-        "namePokemon": "Graveler",
-        "imagePokemon": "images/Pokemon/Graveler.png",
-        "CP":1193,
-        "typePokemons": "5c967763df6b630b8cf2f815"
-    },
-    {
-        "_id":"5c967522df6b630b8cf2f837",
-        "namePokemon": "Zubat",
-        "imagePokemon": "images/Pokemon/Zubat.png",
-        "CP":488,
-        "typePokemons": "5c967763df6b630b8cf2f815"
-    },
-    {
-        "_id":"5c967522df6b630b8cf2f838",
-        "namePokemon": "Golbat",
-        "imagePokemon": "images/Pokemon/Golbat.png",
-        "CP":1203,
-        "typePokemons": "5c967763df6b630b8cf2f815"
-    },
-    {
-        "_id":"5c967522df6b630b8cf2f839",
-        "namePokemon": "Clefairy",
-        "imagePokemon": "images/Pokemon/Clefairy.png",
-        "CP":1085,
-        "typePokemons": "5c967763df6b630b8cf2f815"
-    },
-    {
-        "_id":"5c967522df6b630b8cf2f840",
-        "namePokemon": "Clefable",
-        "imagePokemon": "images/Pokemon/Clefable.png",
-        "CP":2353,
-        "typePokemons": "5c967763df6b630b8cf2f815"
-    },
-    {
-        "_id":"5c967522df6b630b8cf2f841",
-        "namePokemon": "Sandshrew",
-        "imagePokemon": "images/Pokemon/Sandshrew.png",
-        "CP":921,
-        "typePokemons": "5c967763df6b630b8cf2f815"
-    },
-    {
-        "_id":"5c967522df6b630b8cf2f842",
-        "namePokemon": "Sandslash",
-        "imagePokemon": "images/Pokemon/Sandslash.png",
-        "CP":1996,
-        "typePokemons": "5c967763df6b630b8cf2f815"
-    },
-    {
-        "_id":"5c967522df6b630b8cf2f868",
-        "namePokemon": "Treecko",
-        "imagePokemon": "images/Pokemon/Treecko.png",
+        "_id": "5c967522df6b630b8cf2f843",
+        "namePokemon": "Rapidash",
+        "imagePokemon": "images/Pokemon/Johto/upgrade/Rapidash.gif",
         "CP": 1542,
-        "typePokemons": "5c967763df6b630b8cf2f816"
+        "typePokemons": "5c967763df6b630b8cf2f815"
     },
-{
-        "_id":"5c967522df6b630b8cf2f869",
-        "namePokemon": "Grovyle",
-        "imagePokemon": "images/Pokemon/Grovyle.png",
+
+
+
+    {
+        "_id": "5c967522df6b630b8cf2f869",
+        "namePokemon": "Aron",
+        "imagePokemon": "images/Pokemon/Hoenn/Aron.gif",
+        "upgrade": "5c967522df6b630b8cf2f870",
         "CP": 2523,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f870",
-        "namePokemon": "Sceptile",
-        "imagePokemon": "images/Pokemon/Sceptile.png",
+    {
+        "_id": "5c967522df6b630b8cf2f870",
+        "namePokemon": "Lairon",
+        "imagePokemon": "images/Pokemon/Hoenn/upgrade/Lairon.gif",
         "CP": 1252,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f871",
-        "namePokemon": "Torchic",
-        "imagePokemon": "images/Pokemon/Torchic.png",
+    {
+        "_id": "5c967522df6b630b8cf2f871",
+        "namePokemon": "Chikorita",
+        "imagePokemon": "images/Pokemon/Hoenn/Chikorita.gif",
+        "upgrade": "5c967522df6b630b8cf2f872",
         "CP": 2382,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
 
-{
-        "_id":"5c967522df6b630b8cf2f872",
-        "namePokemon": "Combusken",
-        "imagePokemon": "images/Pokemon/Combusken.png",
+    {
+        "_id": "5c967522df6b630b8cf2f872",
+        "namePokemon": "Bayleef",
+        "imagePokemon": "images/Pokemon/Hoenn/upgrade/Bayleef.gif",
         "CP": 2442,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f873",
-        "namePokemon": "Blaziken",
-        "imagePokemon": "images/Pokemon/Blaziken.png",
+    {
+        "_id": "5c967522df6b630b8cf2f873",
+        "namePokemon": "Chinchou",
+        "imagePokemon": "images/Pokemon/Hoenn/Chinchou.gif",
+        "upgrade": "5c967522df6b630b8cf2f874",
         "CP": 4232,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f874",
-        "namePokemon": "Mudkip",
-        "imagePokemon": "images/Pokemon/Mudkip.png",
+    {
+        "_id": "5c967522df6b630b8cf2f874",
+        "namePokemon": "Lanturn",
+        "imagePokemon": "images/Pokemon/Hoenn/upgrade/Lanturn.gif",
         "CP": 3254,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f875",
-        "namePokemon": "Marshtomp",
-        "imagePokemon": "images/Pokemon/Marshtomp.png",
+    {
+        "_id": "5c967522df6b630b8cf2f875",
+        "namePokemon": "Cyndaquil",
+        "imagePokemon": "images/Pokemon/Hoenn/Cyndaquil.gif",
+        "upgrade": "5c967522df6b630b8cf2f876",
         "CP": 4232,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f876",
-        "namePokemon": "Swampert",
-        "imagePokemon": "images/Pokemon/Swampert.png",
+    {
+        "_id": "5c967522df6b630b8cf2f876",
+        "namePokemon": "Typhlosion",
+        "imagePokemon": "images/Pokemon/Hoenn/upgrade/Typhlosion.gif",
         "CP": 2324,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f877",
-        "namePokemon": "Poochyena",
-        "imagePokemon": "images/Pokemon/Poochyena.png",
+    {
+        "_id": "5c967522df6b630b8cf2f877",
+        "namePokemon": "Electrike",
+        "imagePokemon": "images/Pokemon/Hoenn/Electrike.gif",
+        "upgrade": "5c967522df6b630b8cf2f878",
         "CP": 4234,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f878",
-        "namePokemon": "Mightyena",
-        "imagePokemon": "images/Pokemon/Mightyena.png",
+    {
+        "_id": "5c967522df6b630b8cf2f878",
+        "namePokemon": "Manectric",
+        "imagePokemon": "images/Pokemon/Hoenn/upgrade/Manectric.gif",
         "CP": 3123,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f879",
-        "namePokemon": "Zigzagoon",
-        "imagePokemon": "images/Pokemon/Zigzagoon.png",
+    {
+        "_id": "5c967522df6b630b8cf2f879",
+        "namePokemon": "Ledyba",
+        "imagePokemon": "images/Pokemon/Hoenn/Ledyba.gif",
+        "upgrade": "5c967522df6b630b8cf2f880",
         "CP": 2342,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f880",
-        "namePokemon": "Linoone",
-        "imagePokemon": "images/Pokemon/Linoone.png",
+    {
+        "_id": "5c967522df6b630b8cf2f880",
+        "namePokemon": "Ledian",
+        "imagePokemon": "images/Pokemon/Hoenn/upgrade/Ledian.gif",
         "CP": 2342,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f881",
-        "namePokemon": "Wurmple",
-        "imagePokemon": "images/Pokemon/Wurmple.png",
+    {
+        "_id": "5c967522df6b630b8cf2f881",
+        "namePokemon": "Makuhita",
+        "imagePokemon": "images/Pokemon/Hoenn/Makuhita.gif",
+        "upgrade": "5c967522df6b630b8cf2f882",
         "CP": 3435,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f882",
-        "namePokemon": "Wurmple",
-        "imagePokemon": "images/Pokemon/Wurmple.png",
+    {
+        "_id": "5c967522df6b630b8cf2f882",
+        "namePokemon": "Hariyama",
+        "imagePokemon": "images/Pokemon/Hoenn/upgrade/Hariyama.gif",
         "CP": 3453,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f883",
-        "namePokemon": "Silcoon",
-        "imagePokemon": "images/Pokemon/Silcoon.png",
+    {
+        "_id": "5c967522df6b630b8cf2f883",
+        "namePokemon": "Marill",
+        "imagePokemon": "images/Pokemon/Hoenn/Marill.gif",
+        "upgrade": "5c967522df6b630b8cf2f884",
         "CP": 6344,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f884",
-        "namePokemon": "Beautifly",
-        "imagePokemon": "images/Pokemon/Beautifly.png",
+    {
+        "_id": "5c967522df6b630b8cf2f884",
+        "namePokemon": "Azumarill",
+        "imagePokemon": "images/Pokemon/Hoenn/upgrade/Azumarill.gif",
         "CP": 5345,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f885",
-        "namePokemon": "Cascoon",
-        "imagePokemon": "images/Pokemon/Cascoon.png",
+    {
+        "_id": "5c967522df6b630b8cf2f885",
+        "namePokemon": "Skitty",
+        "imagePokemon": "images/Pokemon/Hoenn/Skitty.gif",
+        "upgrade": "5c967522df6b630b8cf2f886",
         "CP": 2345,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f886",
-        "namePokemon": "Dustox",
-        "imagePokemon": "images/Pokemon/Dustox.png",
+    {
+        "_id": "5c967522df6b630b8cf2f886",
+        "namePokemon": "Delcatty",
+        "imagePokemon": "images/Pokemon/Hoenn/upgrade/Delcatty.gif",
         "CP": 6234,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f887",
-        "namePokemon": "Lotad",
-        "imagePokemon": "images/Pokemon/Lotad.png",
+    {
+        "_id": "5c967522df6b630b8cf2f887",
+        "namePokemon": "Togepi",
+        "imagePokemon": "images/Pokemon/Hoenn/Togepi.gif",
+        "upgrade": "5c967522df6b630b8cf2f888",
         "CP": 4334,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f888",
-        "namePokemon": "Lombre",
-        "imagePokemon": "images/Pokemon/Lombre.png",
+    {
+        "_id": "5c967522df6b630b8cf2f888",
+        "namePokemon": "Togetic",
+        "imagePokemon": "images/Pokemon/Hoenn/upgrade/Togetic.gif",
         "CP": 6235,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f889",
-        "namePokemon": "Ludicolo",
-        "imagePokemon": "images/Pokemon/Ludicolo.png",
+    {
+        "_id": "5c967522df6b630b8cf2f889",
+        "namePokemon": "Totodile",
+        "imagePokemon": "images/Pokemon/Hoenn/Totodile.gif",
+        "upgrade": "5c967522df6b630b8cf2f890",
         "CP": 6456,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f890",
-        "namePokemon": "Seedot",
-        "imagePokemon": "images/Pokemon/Seedot.png",
+    {
+        "_id": "5c967522df6b630b8cf2f890",
+        "namePokemon": "Feraligatr",
+        "imagePokemon": "images/Pokemon/Hoenn/upgrade/Feraligatr.gif",
         "CP": 6235,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f891",
-        "namePokemon": "Lombre",
-        "imagePokemon": "images/Pokemon/Lombre.png",
+    {
+        "_id": "5c967522df6b630b8cf2f891",
+        "namePokemon": "Wailmer",
+        "imagePokemon": "images/Pokemon/Hoenn/Wailmer.gif",
+        "upgrade": "5c967522df6b630b8cf2f892",
         "CP": 6235,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f892",
-        "namePokemon": "Nuzleaf",
-        "imagePokemon": "images/Pokemon/Nuzleaf.png",
+    {
+        "_id": "5c967522df6b630b8cf2f892",
+        "namePokemon": "Wailord",
+        "imagePokemon": "images/Pokemon/Hoenn/upgrade/Wailord.gif",
         "CP": 5435,
         "typePokemons": "5c967763df6b630b8cf2f816"
     },
-{
-        "_id":"5c967522df6b630b8cf2f893",
-        "namePokemon": "Shiftry",
-        "imagePokemon": "images/Pokemon/Shiftry.png",
-        "CP": 4234,
-        "typePokemons": "5c967763df6b630b8cf2f816"
-    },
-{
-        "_id":"5c967522df6b630b8cf2f894",
-        "namePokemon": "Taillow",
-        "imagePokemon": "images/Pokemon/Taillow.png",
-        "CP": 6645,
-        "typePokemons": "5c967763df6b630b8cf2f816"
-    },
-{
-        "_id":"5c967522df6b630b8cf2f895",
-        "namePokemon": "Sceptile",
-        "imagePokemon": "images/Pokemon/Sceptile.png",
-        "CP": 3423,
-        "typePokemons": "5c967763df6b630b8cf2f816"
-    },
+
+
 
     {
-        "_id":"5c967522df6b630b8cf2f896",
-        "namePokemon": "Turtwig",
-        "imagePokemon": "images/Pokemon/Turtwig.png",
+        "_id": "5c967522df6b630b8cf2f896",
+        "namePokemon": "Barboach",
+        "imagePokemon": "images/Pokemon/Sinnoh/Barboach.gif",
+        "upgrade": "5c967522df6b630b8cf2f897",
         "CP": 7456,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f897",
-        "namePokemon": "Torterra",
-        "imagePokemon": "images/Pokemon/Torterra.png",
+    {
+        "_id": "5c967522df6b630b8cf2f897",
+        "namePokemon": "Whiscash",
+        "imagePokemon": "images/Pokemon/Sinnoh/upgrade/Whiscash.gif",
         "CP": 7363,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f898",
-        "namePokemon": "Chimchar",
-        "imagePokemon": "images/Pokemon/Chimchar.png",
+    {
+        "_id": "5c967522df6b630b8cf2f898",
+        "namePokemon": "Buneary",
+        "imagePokemon": "images/Pokemon/Sinnoh/Buneary.gif",
+        "upgrade": "5c967522df6b630b8cf2f899",
         "CP": 7456,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f899",
-        "namePokemon": "Monferno",
-        "imagePokemon": "images/Pokemon/Monferno.png",
+    {
+        "_id": "5c967522df6b630b8cf2f899",
+        "namePokemon": "Lopunny",
+        "imagePokemon": "images/Pokemon/Sinnoh/upgrade/Lopunny.gif",
         "CP": 5423,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
 
-{
-        "_id":"5c967522df6b630b8cf2f900",
-        "namePokemon": "Infernape",
-        "imagePokemon": "images/Pokemon/Infernape.png",
+    {
+        "_id": "5c967522df6b630b8cf2f900",
+        "namePokemon": "Cacnea",
+        "imagePokemon": "images/Pokemon/Sinnoh/Cacnea.gif",
+        "upgrade": "5c967522df6b630b8cf2f901",
         "CP": 5345,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f901",
-        "namePokemon": "Piplup",
-        "imagePokemon": "images/Pokemon/Piplup.png",
+    {
+        "_id": "5c967522df6b630b8cf2f901",
+        "namePokemon": "Cacturne",
+        "imagePokemon": "images/Pokemon/Sinnoh/upgrade/Cacturne.gif",
         "CP": 6354,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f902",
-        "namePokemon": "Prinplup",
-        "imagePokemon": "images/Pokemon/Prinplup.png",
+    {
+        "_id": "5c967522df6b630b8cf2f902",
+        "namePokemon": "Castform",
+        "imagePokemon": "images/Pokemon/Sinnoh/Castform.gif",
+        "upgrade": "5c967522df6b630b8cf2f903",
         "CP": 3254,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f903",
-        "namePokemon": "Marshtomp",
-        "imagePokemon": "images/Pokemon/Marshtomp.png",
+    {
+        "_id": "5c967522df6b630b8cf2f903",
+        "namePokemon": "Castform",
+        "imagePokemon": "images/Pokemon/Sinnoh/upgrade/Castform.gif",
         "CP": 4232,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f904",
-        "namePokemon": "Empoleon",
-        "imagePokemon": "images/Pokemon/Empoleon.png",
+    {
+        "_id": "5c967522df6b630b8cf2f904",
+        "namePokemon": "Combee",
+        "imagePokemon": "images/Pokemon/Sinnoh/Combee.gif",
+        "upgrade": "5c967522df6b630b8cf2f905",
         "CP": 5243,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f905",
-        "namePokemon": "Starly",
-        "imagePokemon": "images/Pokemon/Starly.png",
+    {
+        "_id": "5c967522df6b630b8cf2f905",
+        "namePokemon": "Vespiquen",
+        "imagePokemon": "images/Pokemon/Sinnoh/upgrade/Vespiquen.gif",
         "CP": 4234,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f906",
-        "namePokemon": "Staravia",
-        "imagePokemon": "images/Pokemon/Staravia.png",
+    {
+        "_id": "5c967522df6b630b8cf2f906",
+        "namePokemon": "Corphish",
+        "imagePokemon": "images/Pokemon/Sinnoh/Corphish.gif",
+        "upgrade": "5c967522df6b630b8cf2f907",
         "CP": 3123,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f907",
-        "namePokemon": "Staraptor",
-        "imagePokemon": "images/Pokemon/Staraptor.png",
+    {
+        "_id": "5c967522df6b630b8cf2f907",
+        "namePokemon": "Crawdaunt",
+        "imagePokemon": "images/Pokemon/Sinnoh/upgrade/Crawdaunt.gif",
         "CP": 5234,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f908",
-        "namePokemon": "Bidoof",
-        "imagePokemon": "images/Pokemon/Bidoof.png",
+    {
+        "_id": "5c967522df6b630b8cf2f908",
+        "namePokemon": "Cranidos",
+        "imagePokemon": "images/Pokemon/Sinnoh/Cranidos.gif",
+        "upgrade": "5c967522df6b630b8cf2f909",
         "CP": 3455,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f909",
-        "namePokemon": "Bibarel",
-        "imagePokemon": "images/Pokemon/Bibarel.png",
+    {
+        "_id": "5c967522df6b630b8cf2f909",
+        "namePokemon": "Rampardos",
+        "imagePokemon": "images/Pokemon/Sinnoh/upgrade/Rampardos.gif",
         "CP": 6456,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f910",
-        "namePokemon": "Kricketot",
-        "imagePokemon": "images/Pokemon/Kricketot.png",
+    {
+        "_id": "5c967522df6b630b8cf2f910",
+        "namePokemon": "Feebas",
+        "imagePokemon": "images/Pokemon/Sinnoh/Feebas.gif",
+        "upgrade": "5c967522df6b630b8cf2f911",
         "CP": 3453,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f911",
-        "namePokemon": "Kricketune",
-        "imagePokemon": "images/Pokemon/Kricketune.png",
+    {
+        "_id": "5c967522df6b630b8cf2f911",
+        "namePokemon": "Milotic",
+        "imagePokemon": "images/Pokemon/Sinnoh/upgrade/Milotic.gif",
         "CP": 6344,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f912",
-        "namePokemon": "Shinx",
-        "imagePokemon": "images/Pokemon/Shinx.png",
+    {
+        "_id": "5c967522df6b630b8cf2f912",
+        "namePokemon": "Luxio",
+        "imagePokemon": "images/Pokemon/Sinnoh/Luxio.gif",
+        "upgrade": "5c967522df6b630b8cf2f913",
         "CP": 4325,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f913",
-        "namePokemon": "Luxio",
-        "imagePokemon": "images/Pokemon/Luxio.png",
+    {
+        "_id": "5c967522df6b630b8cf2f913",
+        "namePokemon": "Luxray",
+        "imagePokemon": "images/Pokemon/Sinnoh/upgrade/Luxray.gif",
         "CP": 2345,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f914",
-        "namePokemon": "Luxray",
-        "imagePokemon": "images/Pokemon/Luxray.png",
+    {
+        "_id": "5c967522df6b630b8cf2f914",
+        "namePokemon": "Metang",
+        "imagePokemon": "images/Pokemon/Sinnoh/Metang.gif",
+        "upgrade": "5c967522df6b630b8cf2f915",
         "CP": 6234,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f915",
-        "namePokemon": "Abra",
-        "imagePokemon": "images/Pokemon/Abra.png",
+    {
+        "_id": "5c967522df6b630b8cf2f915",
+        "namePokemon": "Metagross",
+        "imagePokemon": "images/Pokemon/Sinnoh/upgrade/Metagross.gif",
         "CP": 4334,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f916",
-        "namePokemon": "Kadabra",
-        "imagePokemon": "images/Pokemon/Kadabra.png",
+    {
+        "_id": "5c967522df6b630b8cf2f916",
+        "namePokemon": "Shieldon",
+        "imagePokemon": "images/Pokemon/Sinnoh/Shieldon.gif",
+        "upgrade": "5c967522df6b630b8cf2f917",
         "CP": 6235,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f917",
-        "namePokemon": "Alakazam",
-        "imagePokemon": "images/Pokemon/Alakazam.png",
+    {
+        "_id": "5c967522df6b630b8cf2f917",
+        "namePokemon": "Bastiodon",
+        "imagePokemon": "images/Pokemon/Sinnoh/upgrade/Bastiodon.gif",
         "CP": 6456,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f918",
-        "namePokemon": "Magikarp",
-        "imagePokemon": "images/Pokemon/Magikarp.png",
+    {
+        "_id": "5c967522df6b630b8cf2f918",
+        "namePokemon": "Swablu",
+        "imagePokemon": "images/Pokemon/Sinnoh/Swablu.gif",
+        "upgrade": "5c967522df6b630b8cf2f919",
         "CP": 6235,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f919",
-        "namePokemon": "Gyarados",
-        "imagePokemon": "images/Pokemon/Gyarados.png",
+    {
+        "_id": "5c967522df6b630b8cf2f919",
+        "namePokemon": "Altaria",
+        "imagePokemon": "images/Pokemon/Sinnoh/upgrade/Altaria.gif",
         "CP": 4564,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
-{
-        "_id":"5c967522df6b630b8cf2f920",
-        "namePokemon": "Budew",
-        "imagePokemon": "images/Pokemon/Budew.png",
+    {
+        "_id": "5c967522df6b630b8cf2f920",
+        "namePokemon": "Turtwig",
+        "imagePokemon": "images/Pokemon/Sinnoh/Turtwig.gif",
+        "upgrade": "5c967522df6b630b8cf2f921",
         "CP": 5435,
         "typePokemons": "5c967763df6b630b8cf2f817"
     },
 
     {
-        "_id":"5c967522df6b630b8cf2f843",
-        "namePokemon": "Bulbasaur",
-        "imagePokemon": "images/Pokemon/Bulbasaur.png",
-        "CP":981,
+        "_id": "5c967522df6b630b8cf2f921",
+        "namePokemon": "Grotle",
+        "imagePokemon": "images/Pokemon/Sinnoh/upgrade/Grotle.gif",
+        "CP": 981,
+        "typePokemons": "5c967763df6b630b8cf2f817"
+    },
+    {
+        "_id": "5c967522df6b630b8cf2f922",
+        "namePokemon": "Vibrava",
+        "imagePokemon": "images/Pokemon/Sinnoh/Vibrava.gif",
+        "upgrade": "5c967522df6b630b8cf2f923",
+        "CP": 1552,
+        "typePokemons": "5c967763df6b630b8cf2f817"
+    },
+    {
+        "_id": "5c967522df6b630b8cf2f923",
+        "namePokemon": "Flygon",
+        "imagePokemon": "images/Pokemon/Sinnoh/upgrade/Flygon.gif",
+        "CP": 2568,
+        "typePokemons": "5c967763df6b630b8cf2f817"
+    },
+
+
+    {
+        "_id": "5c967522df6b630b8cf2f924",
+        "namePokemon": "Kirlia",
+        "imagePokemon": "images/Pokemon/Kanto/Kirlia.gif",
+        "upgrade": "5c967522df6b630b8cf2f925",
+        "CP": 1552,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f844",
-        "namePokemon": "Ivysaur",
-        "imagePokemon": "images/Pokemon/Ivysaur.png",
-        "CP":1552,
+        "_id": "5c967522df6b630b8cf2f925",
+        "namePokemon": "Gardevoir",
+        "imagePokemon": "images/Pokemon/Kanto/upgrade/Gardevoir.gif",
+        "CP": 2568,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f845",
-        "namePokemon": "Venusaur",
-        "imagePokemon": "images/Pokemon/Venusaur.png",
-        "CP":2568,
+        "_id": "5c967522df6b630b8cf2f926",
+        "namePokemon": "Lombre",
+        "imagePokemon": "images/Pokemon/Kanto/Lombre.gif",
+        "upgrade": "5c967522df6b630b8cf2f927",
+        "CP": 1552,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f846",
-        "namePokemon": "Charmander",
-        "imagePokemon": "images/Pokemon/Charmander.png",
-        "CP":831,
+        "_id": "5c967522df6b630b8cf2f927",
+        "namePokemon": "Ludicolo",
+        "imagePokemon": "images/Pokemon/Kanto/upgrade/Ludicolo.gif",
+        "CP": 2568,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f846",
-        "namePokemon": "Charmander",
-        "imagePokemon": "images/Pokemon/Charmander.png",
-        "CP":831,
+        "_id": "5c967522df6b630b8cf2f928",
+        "namePokemon": "Loudred",
+        "imagePokemon": "images/Pokemon/Kanto/Loudred.gif",
+        "upgrade": "5c967522df6b630b8cf2f929",
+        "CP": 1552,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f847",
-        "namePokemon": "Charmeleon",
-        "imagePokemon": "images/Pokemon/Charmeleon.png",
-        "CP":1484,
+        "_id": "5c967522df6b630b8cf2f929",
+        "namePokemon": "Exploud",
+        "imagePokemon": "images/Pokemon/Kanto/upgrade/Exploud.gif",
+        "CP": 2568,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f848",
-        "namePokemon": "Charizard",
-        "imagePokemon": "images/Pokemon/Charizard.png",
-        "CP":2686,
+        "_id": "5c967522df6b630b8cf2f930",
+        "namePokemon": "Mudkip",
+        "imagePokemon": "images/Pokemon/Kanto/Mudkip.gif",
+        "upgrade": "5c967522df6b630b8cf2f931",
+        "CP": 1552,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f849",
-        "namePokemon": "Squirtle",
-        "imagePokemon": "images/Pokemon/Squirtle.png",
-        "CP":808,
+        "_id": "5c967522df6b630b8cf2f931",
+        "namePokemon": "Marshtomp",
+        "imagePokemon": "images/Pokemon/Kanto/upgrade/Marshtomp.gif",
+        "CP": 2568,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f850",
-        "namePokemon": "Wartortle",
-        "imagePokemon": "images/Pokemon/Wartortle.png",
-        "CP":1342,
+        "_id": "5c967522df6b630b8cf2f932",
+        "namePokemon": "Poochyena",
+        "imagePokemon": "images/Pokemon/Kanto/Poochyena.gif",
+        "upgrade": "5c967522df6b630b8cf2f933",
+        "CP": 1552,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f851",
-        "namePokemon": "Blastoise",
-        "imagePokemon": "images/Pokemon/Blastoise.png",
-        "CP":2291,
+        "_id": "5c967522df6b630b8cf2f933",
+        "namePokemon": "Mightyena",
+        "imagePokemon": "images/Pokemon/Kanto/upgrade/Mightyena.gif",
+        "CP": 2568,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f852",
-        "namePokemon": "Nidorina",
-        "imagePokemon": "images/Pokemon/Nidorina.png",
-        "CP":870,
+        "_id": "5c967522df6b630b8cf2f934",
+        "namePokemon": "Surskit",
+        "imagePokemon": "images/Pokemon/Kanto/Surskit.gif",
+        "upgrade": "5c967522df6b630b8cf2f935",
+        "CP": 1552,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f853",
-        "namePokemon": "Nidoqueen",
-        "imagePokemon": "images/Pokemon/Nidoqueen.png",
-        "CP":1671,
+        "_id": "5c967522df6b630b8cf2f935",
+        "namePokemon": "Masquerain",
+        "imagePokemon": "images/Pokemon/Kanto/upgrade/Masquerain.gif",
+        "CP": 2568,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f854",
-        "namePokemon": "Nidorino",
-        "imagePokemon": "images/Pokemon/Nidorino.png",
-        "CP":966,
+        "_id": "5c967522df6b630b8cf2f936",
+        "namePokemon": "Taillow",
+        "imagePokemon": "images/Pokemon/Kanto/Taillow.gif",
+        "upgrade": "5c967522df6b630b8cf2f937",
+        "CP": 1552,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f855",
-        "namePokemon": "Nidoking",
-        "imagePokemon": "images/Pokemon/Nidoking.png",
-        "CP":2045,
+        "_id": "5c967522df6b630b8cf2f937",
+        "namePokemon": "Swellow",
+        "imagePokemon": "images/Pokemon/Kanto/upgrade/Swellow.gif",
+        "CP": 2568,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f856",
-        "namePokemon": "Vulpix",
-        "imagePokemon": "images/Pokemon/Vulpix.png",
-        "CP":774,
+        "_id": "5c967522df6b630b8cf2f938",
+        "namePokemon": "Torchic",
+        "imagePokemon": "images/Pokemon/Kanto/Torchic.gif",
+        "upgrade": "5c967522df6b630b8cf2f939",
+        "CP": 1552,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f857",
-        "namePokemon": "Ninetales",
-        "imagePokemon": "images/Pokemon/Ninetales.png",
-        "CP":2157,
+        "_id": "5c967522df6b630b8cf2f939",
+        "namePokemon": "Combusken",
+        "imagePokemon": "images/Pokemon/Kanto/upgrade/Combusken.gif",
+        "CP": 2568,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f858",
-        "namePokemon": "Oddish",
-        "imagePokemon": "images/Pokemon/Oddish.png",
-        "CP":916,
+        "_id": "5c967522df6b630b8cf2f940",
+        "namePokemon": "Treecko",
+        "imagePokemon": "images/Pokemon/Kanto/Treecko.gif",
+        "upgrade": "5c967522df6b630b8cf2f941",
+        "CP": 1552,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f859",
-        "namePokemon": "Gloom",
-        "imagePokemon": "images/Pokemon/Gloom.png",
-        "CP":1512,
+        "_id": "5c967522df6b630b8cf2f941",
+        "namePokemon": "Grovyle",
+        "imagePokemon": "images/Pokemon/Kanto/upgrade/Grovyle.gif",
+        "CP": 2568,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f860",
-        "namePokemon": "Vileplume",
-        "imagePokemon": "images/Pokemon/Vileplume.png",
-        "CP":2029,
+        "_id": "5c967522df6b630b8cf2f942",
+        "namePokemon": "Vigoroth",
+        "imagePokemon": "images/Pokemon/Kanto/Vigoroth.gif",
+        "upgrade": "5c967522df6b630b8cf2f943",
+        "CP": 1552,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f861",
-        "namePokemon": "Paras",
-        "imagePokemon": "images/Pokemon/Paras.png",
-        "CP":597,
+        "_id": "5c967522df6b630b8cf2f943",
+        "namePokemon": "Slaking",
+        "imagePokemon": "images/Pokemon/Kanto/upgrade/Slaking.gif",
+        "CP": 2568,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f862",
-        "namePokemon": "Parasect",
-        "imagePokemon": "images/Pokemon/Parasect.png",
-        "CP":1089,
+        "_id": "5c967522df6b630b8cf2f944",
+        "namePokemon": "Wingull",
+        "imagePokemon": "images/Pokemon/Kanto/Wingull.gif",
+        "upgrade": "5c967522df6b630b8cf2f945",
+        "CP": 1552,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f863",
-        "namePokemon": "Venonat",
-        "imagePokemon": "images/Pokemon/Venonat.png",
-        "CP":696,
+        "_id": "5c967522df6b630b8cf2f945",
+        "namePokemon": "Pelipper",
+        "imagePokemon": "images/Pokemon/Kanto/upgrade/Pelipper.gif",
+        "CP": 2568,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f864",
-        "namePokemon": "Venomoth",
-        "imagePokemon": "images/Pokemon/Venomoth.png",
-        "CP":1661,
+        "_id": "5c967522df6b630b8cf2f946",
+        "namePokemon": "Zigzagoon",
+        "imagePokemon": "images/Pokemon/Kanto/Zigzagoon.gif",
+        "upgrade": "5c967522df6b630b8cf2f947",
+        "CP": 1552,
         "typePokemons": "5c967763df6b630b8cf2f818"
     },
     {
-        "_id":"5c967522df6b630b8cf2f865",
-        "namePokemon": "Diglett",
-        "imagePokemon": "images/Pokemon/Diglett.png",
-        "CP":465,
-        "typePokemons": "5c967763df6b630b8cf2f818"
-    },
-    {
-        "_id":"5c967522df6b630b8cf2f866",
-        "namePokemon": "Dugtrio",
-        "imagePokemon": "images/Pokemon/Dugtrio.png",
-        "CP":1143,
+        "_id": "5c967522df6b630b8cf2f947",
+        "namePokemon": "Linoone",
+        "imagePokemon": "images/Pokemon/Kanto/upgrade/Linoone.gif",
+        "CP": 2568,
         "typePokemons": "5c967763df6b630b8cf2f818"
     }
 ]

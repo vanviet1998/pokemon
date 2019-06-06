@@ -14,11 +14,7 @@ router.get('/all',(req,res,next)=>{
     })
 })
 router.get('/',(req,res,next)=>{
-    if(req.session.loggedin)
     res.render('account')
-    else
-    res.render("ads-admin");
-   
 })
 router.get('/getUserById/:id',(req,res,next)=>{
     var id=req.params.id
