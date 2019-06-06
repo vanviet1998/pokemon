@@ -1,0 +1,22 @@
+[
+    {
+        "_id":"5c967763df6b630b8cf2f815",
+        "nameType": "Johto",
+        "pokemons": ["5c967522df6b630b8cf2f814","5c967522df6b630b8cf2f815","5c967522df6b630b8cf2f816"]
+    },
+    {
+        "_id":"5c967763df6b630b8cf2f816",
+        "nameType": "Hoenn",
+        "pokemons": ["5c967522df6b630b8cf2f817","5c967522df6b630b8cf2f818","5c967522df6b630b8cf2f819"]
+    },
+    {
+        "_id":"5c967763df6b630b8cf2f817",
+        "nameType": "Sinnoh",
+        "pokemons": ["5c967522df6b630b8cf2f820","5c967522df6b630b8cf2f821","5c967522df6b630b8cf2f822"]
+    },
+    {
+        "_id":"5c967763df6b630b8cf2f818",
+        "nameType": "Kanto",
+        "pokemons": ["5c967522df6b630b8cf2f823","5c967522df6b630b8cf2f824","5c967522df6b630b8cf2f825"]
+    }
+]

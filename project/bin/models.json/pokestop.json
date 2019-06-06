@@ -1,0 +1,63 @@
+[
+    {
+        "address":"Su pham ky thuat",
+        "img":"images/Pokemstop/stop1.jpg",
+        "lat":10.851404,
+        "long":106.772044
+    },
+    {
+        "address":"Sieu Thi Nguyen Kim",
+        "img":"images/Pokemstop/stop2.jpg",
+        "lat":10.850256,
+        "long":106.768869
+    },
+    {
+        "address":"Sieu Thi Coopmark",
+        "img":"images/Pokemstop/stop3.jpg",
+        "lat":10.848696,
+        "long":106.774995
+    },
+    {
+        "address":"Nha Thieu Nhi Thu Duc",
+        "img":"images/Pokemstop/stop4.jpg",
+        "lat":10.850866,
+        "long":106.767219
+    },
+    {
+        "address":"Vincom Thu Duc",
+        "img":"images/Pokemstop/stop5.jpg",
+        "lat":10.850234,
+        "long":106.765170
+    },
+       {
+        "address":"Lotteria Thu Duc",
+        "img":"images/Pokemstop/stop6.jpg",
+        "lat":10.850174,
+        "long":106.768020
+    },
+    {
+        "address":"Tra sua Ozone",
+        "img":"images/Pokemstop/stop7.jpg",
+        "lat":10.854263,
+        "long":106.770728
+    },
+ {
+        "address":"Dai hoc ngan hang",
+        "img":"images/Pokemstop/stop8.jpg",
+        "lat":10.858227,
+        "long":106.762529
+    },
+   
+   {
+        "address":"Truong cao dang xay dung",
+        "img":"images/Pokemstop/stop9.jpg",
+        "lat":10.850703,
+        "long":106.764196
+    },
+     {
+        "address":"Ca Phe Ti Tach",
+        "img":"images/Pokemstop/stop10.jpg",
+        "lat":10.854646,
+        "long":106.769587
+    }
+]

@@ -1,0 +1,29 @@
+input.bag-index(type="image",src="images/bag-icon.png",data-toggle='modal', data-target='#exampleModal')
+// Modal
+#exampleModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+  .modal-dialog(role='document')
+    .modal-content
+      .modal-header
+        .closeModal(data-dismiss='modal')
+          img(src="images/cancel2.png", alt="close")
+      .modal-body
+        .modaluser-left
+          #contact(style="color:#fff;padding-top:15px")
+        .modaluser-right
+          ul.nav.nav-tabs
+            li.active
+              a#menuPo(href='#pokemon') Pokemon
+            li
+              a#menuIt(href='#item') Item
+            li
+              a#menuFr(href='#friend') Friend
+          .tab-content
+            #pokemon.tab-pane.fade.in.active.show
+              .row#list-pokemon.my-custom-scrollbar.scrollbar-lady-lips
+            #item.tab-pane.fade.scrollbar-lady-lips
+              .row#list-item.my-custom-scrollbar.scrollbar-lady-lips
+            #friend.tab-pane.fade.scrollbar-lady-lips
+              #messAddFr.alert.alert-success.bounceInDown.d-none
+              button#btnAddFr.btn.btn-outline-success(type="button") Add Friend
+              input#ipFr(type="text", placeholder="Pls input name friend")
+              .row#list-friend.my-custom-scrollbar.scrollbar-lady-lips

@@ -1,0 +1,36 @@
+input#six.ball-index(type="image",src="/images/Pokemon/pokeball.png")
+#modal-container
+  .modal-background
+    .modalshop
+      svg.modal-svg(xmlns='http://www.w3.org/2000/svg', width='100%', height='100%', preserveAspectRatio='none')
+        rect(x='0', y='0', fill='none', width='900', height='570', rx='3', ry='3')
+      .modalshop-header
+        .closeModal
+          img(src="images/cancel2.png", alt="close")
+        #coins
+          img(src="images/coin.png", alt="coin", style="width:39px")
+          h4(style="margin: 0;margin-top: 6px;color: darkorchid;")
+      .modalshop-body
+        #modalbody-left(style="width:30%;margin-right:10%;")
+          a.card-index(href="",data-toggle='modal', data-target='#cardModal') Nap card
+        #modalbody-right(style="width:60%;padding-top: 35px;")
+          .row
+            .alert.alert-success.fadeInRight.d-none#sucess
+              strong Mua thành công
+            .alert.alert-danger.fadeInRight.d-none#fail
+              strong Bạn không đủ tiền
+          //- .row.list-items.my-custom-scrollbar.scrollbar-lady-lips(style="height: 400px;")
+          ul#pills-tab.nav.nav-pills.mb-3(role='tablist')
+            li.nav-item
+              a#pills-all-tab.nav-link.active(data-toggle='pill', href='#pills-all', role='tab', aria-controls='pills-all', aria-selected='true') All
+            li.nav-item
+              a#pills-ball-tab.nav-link(data-toggle='pill', href='#pills-ball', role='tab', aria-controls='pills-ball', aria-selected='false') Pokeball
+            li.nav-item
+              a#pills-item-tab.nav-link(data-toggle='pill', href='#pills-item', role='tab', aria-controls='pills-item', aria-selected='false') Item
+          #pills-tabContent.tab-content
+            #pills-all.tab-pane.fade.show.active(role='tabpanel', aria-labelledby='pills-all-tab')
+              .row.list-items.my-custom-scrollbar.scrollbar-lady-lips(style="height: 400px;")
+            #pills-ball.tab-pane.fade(role='tabpanel', aria-labelledby='pills-ball-tab')
+              .row.list-items.my-custom-scrollbar.scrollbar-lady-lips(style="height: 400px;")
+            #pills-contact.tab-pane.fade(role='tabpanel', aria-labelledby='pills-item-tab') Items
+              .row.list-items.my-custom-scrollbar.scrollbar-lady-lips(style="height: 400px;")

@@ -1,0 +1,28 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    title Advertisement PokéBiz
+    link(rel="stylesheet", href="../stylesheets/bootstrap.min.css")
+    link(rel="stylesheet", href="../stylesheets/index.css")
+  body#adv
+    form(action="/home/adv/" method="Post" enctype="multipart/form-data")
+        .form-row
+            .form-group.col-md-6
+                label(for='inputEmail') Email
+                input#inputEmail.form-control(name="email" ,type='email', placeholder='abc@gmail.com')
+            .form-group.col-md-6
+                label(for='inputPhone') Phone number
+                input#inputPhone.form-control(type='text',name="phone" placeholder='03xxxxxx')
+        .form-group
+            label(for='inputLink') Link Page
+            input#inputLink.form-control(type='text',name="link" placeholder='https://www.abc.com/')
+        .form-group
+            label(for='inputImage') Image
+            input#inputImage.form-control(type='file', name="image", placeholder='Image')
+        button.btn.btn-primary(type='submit') Sign up
+
+    script(type='text/javascript' src='/javascripts/vendor/jquery-3.2.1.min.js')
+    script(type='text/javascript' src='/javascripts/home.js')

@@ -1,0 +1,38 @@
+[
+    {
+        "_id": "5cb9d1cf1c9d4400008e1a0c",
+        "code": "123456789",
+        "type": 20,
+        "status": 1
+    },
+    {
+        "_id": "5cb9d1cf1c9d4400008e1a1c",
+        "code": "11223344",
+        "type": 20,
+        "status": 1
+    },
+    {
+        "_id": "5cb9d1cf1c9d4400008e1a2c",
+        "code": "123456abc",
+        "type": 50,
+        "status": 1
+    },
+    {
+        "_id": "5cb9d1cf1c9d4400008e1a3c",
+        "code": "abc123456",
+        "type": 100,
+        "status": 1
+    },
+    {
+        "_id": "5cb9d1cf1c9d4400008e1a4c",
+        "code": "01010101",
+        "type": 200,
+        "status": 1
+    },
+    {
+        "_id": "5cb9d1cf1c9d4400008e1a5c",
+        "code": "123123",
+        "type": 500,
+        "status": 1
+    }
+]

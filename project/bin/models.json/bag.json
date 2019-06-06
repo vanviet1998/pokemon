@@ -1,0 +1,110 @@
+[
+    {
+        "_id":"5c967d0adf6b630b8cf2f217",
+        "pokemons":[
+            {
+                "_id": "5c967522df6b630b8cf2f828",
+                "amount": 1
+            },
+            {
+                "_id": "5c967522df6b630b8cf2f829",
+                "amount": 1
+            },
+            {
+                "_id": "5c967522df6b630b8cf2f830",
+                "amount": 1
+            },
+            {
+                "_id": "5c967522df6b630b8cf2f831",
+                "amount": 1
+            },
+            {
+                "_id": "5c967522df6b630b8cf2f832",
+                "amount": 1
+            },
+            {
+                "_id": "5c967522df6b630b8cf2f833",
+                "amount": 1
+            }
+        ],
+        "items":[
+            {
+                "_id":"5c966feddf6b630b8cf2f814",
+                "amount":50
+            }
+            
+        ]
+    },
+    {
+        "_id":"5c967d0adf6b630b8cf2f218",
+        "pokemons":[
+            {
+                "_id": "5c967522df6b630b8cf2f828",
+                "amount": 1
+            },
+            {
+                "_id": "5c967522df6b630b8cf2f829",
+                "amount": 1
+            },
+            {
+                "_id": "5c967522df6b630b8cf2f830",
+                "amount": 1
+            },
+            {
+                "_id": "5c967522df6b630b8cf2f831",
+                "amount": 1
+            },
+            {
+                "_id": "5c967522df6b630b8cf2f832",
+                "amount": 1
+            },
+            {
+                "_id": "5c967522df6b630b8cf2f833",
+                "amount": 1
+            }
+        ],
+        "items":[
+            {
+                "_id":"5c966feddf6b630b8cf2f814",
+                "amount":50
+            }
+           
+        ]
+    },
+    {
+        "_id":"5c967d0adf6b630b8cf2f219",
+        "pokemons":[
+            {
+                "_id": "5c967522df6b630b8cf2f828",
+                "amount": 1
+            },
+            {
+                "_id": "5c967522df6b630b8cf2f829",
+                "amount": 1
+            },
+            {
+                "_id": "5c967522df6b630b8cf2f830",
+                "amount": 1
+            },
+            {
+                "_id": "5c967522df6b630b8cf2f831",
+                "amount": 1
+            },
+            {
+                "_id": "5c967522df6b630b8cf2f832",
+                "amount": 1
+            },
+            {
+                "_id": "5c967522df6b630b8cf2f833",
+                "amount": 1
+            }
+        ],
+        "items":[
+            {
+                "_id":"5c966feddf6b630b8cf2f814",
+                "amount":50
+            }
+            
+        ]
+    }
+]

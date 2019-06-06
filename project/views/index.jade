@@ -1,0 +1,88 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    link(href="/stylesheets/bootstrap.min.css" ,rel="stylesheet")
+    link(rel="stylesheet", href="stylesheets/index.css")
+    link(rel="stylesheet", href="stylesheets/modal.css")
+    link(rel="stylesheet", href="stylesheets/vendor/animate.css")
+    script(async='', defer='', crossorigin='anonymous', src='https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.3')
+    title Pokemon Go
+    style.
+      #map {
+        height: 100%;
+      }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .fb_iframe_widget{
+        position: absolute !important;
+        top: 19%;
+        right: 2%;
+      }
+  body
+    #map
+    #spinpoke.alert.zoomInDown.slower(role='alert',style='width: 50%;position: absolute;top: 0;left: 25%;display: none;')
+    #messCatch.alert.alert-danger.rollIn.d-none
+    if message
+      .alert.alert-success.rollIn(style="position: absolute;top: 11%;right: 10%;width: 10%;")=message
+    include modal-contact.jade
+    include modal-shop.jade
+    include modal-card.jade
+    .navigation
+      a.button(href='/signout')
+        img(src='../images/user-logout.png')
+        .logout Logout
+    #fb.fb-page(data-href='https://www.facebook.com/PokeBiz-644950492595717/', data-tabs='', 
+      data-width='', data-height='', data-small-header='true', data-adapt-container-width='true', 
+      data-hide-cover='false', data-show-facepile='true')
+        blockquote.fb-xfbml-parse-ignore(cite='https://www.facebook.com/PokeBiz-644950492595717/')
+          a(href='https://www.facebook.com/PokeBiz-644950492595717/') PokeBiz
+    #fb-root
+    script(async='', defer='', crossorigin='anonymous', src='https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.3')
+    script.
+        window.fbAsyncInit = function() {
+        FB.init({
+        appId            : '395688651028534',
+        autoLogAppEvents : true,
+        xfbml            : true,
+        version          : 'v3.3'
+        });
+        };
+    script(async='', defer='', src='https://connect.facebook.net/en_US/sdk.js')
+    if _id
+      input(type='hidden' value='#{_id}' id='_id') 
+    
+    
+    script(src='/javascripts/vendor/jquery-3.2.1.min.js')
+    script(src='/javascripts/getCurrentLocation.js')
+    script(src='/javascripts/geo.js')
+    script(src='/javascripts/adsindex.js')
+    script(src='/javascripts/checkInOut.js')
+    script(src='/javascripts/hideAndshowPokemon.js')
+    script(src='/javascripts/map.js')
+    script(src='/javascripts/vendor/popper.js')
+    script(src='/javascripts/vendor/bootstrap.min.js')
+
+    script(src='/javascripts/bags.js')
+    script(src='/javascripts/Items.js')
+    script(src='/javascripts/catchPokemon.js')
+    
+    script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBUd8Fk6RmR7qHsbsuYGD4kBUbpYp6Q7CA&callback=delayMaps', async='', defer='',type="text/javascript")
+    script(src='/javascripts/checkInOut.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js')
+    #fb-root
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

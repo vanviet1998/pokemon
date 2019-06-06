@@ -1,0 +1,242 @@
+#map {
+    height: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.ball-index {
+    width: 55px;
+    position: absolute;
+    z-index: 1;
+    bottom: 38px;
+    left: 48%;
+    outline: none;
+}
+
+.modal-title {
+    display: inline-block;
+}
+
+#coins h3 {
+    margin: 0;
+    text-align: center;
+}
+
+.i-title {
+    position: relative;
+    text-align: center;
+    margin-bottom: 18px;
+    margin: 0px 75px;
+}
+
+.i-title:before {
+    content: '';
+    border-top: 1px solid #333;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 63%;
+    left: 0px;
+    right: 0px;
+}
+
+.i-title h4 {
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    z-index: 5;
+    padding: 20px 20px 10px;
+    margin: 0;
+    background-color: #fff;
+}
+
+#items img {
+    display: block;
+    width: 100%;
+    border: 1px solid #777777;
+}
+
+#messCatch {
+    width: 16%;
+    position: absolute;
+    top: 13%;
+    right: 14%;
+    font-size: 27px;
+    color: yellowgreen;
+    text-align: center;
+}
+
+.alert-danger {
+    color: salmon !important;
+}
+
+.navigation {
+    width: 18%;
+    position: absolute;
+    top: -6px;
+    right: 0px;
+}
+
+.navigation img {
+    width: 27px;
+    border-radius: 50px;
+    float: left;
+}
+
+.logout {
+    font-size: .8em;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    right: -18px;
+    bottom: -4px;
+    overflow: hidden;
+    letter-spacing: 3px;
+    opacity: 0;
+    transition: opacity .45s;
+    -webkit-transition: opacity .35s;
+}
+
+.navigation .button {
+    text-decoration: none;
+    float: right;
+    padding: 12px;
+    margin: 15px;
+    color: white;
+    width: 52px;
+    background-color: black;
+    transition: width .35s;
+    -webkit-transition: width .35s;
+    overflow: hidden;
+    border-radius: 48px;
+}
+
+.navigation a:hover {
+    width: 139px;
+}
+
+.navigation a:hover .logout {
+    opacity: .9;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+#pokestop {
+    background: linear-gradient(to bottom, rgba(22, 22, 22, .1) 0, rgba(22, 22, 22, .5) 75%, #161616 100%), url(../images/bg-signup.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#pokestop form {
+    position: absolute;
+    width: 449px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 66px 37px;
+    transform: translate(-50%, -50%);
+    left: 67%;
+    top: 50%;
+    color: #fff;
+}
+
+#pokestop button {
+    margin-left: 29%;
+    margin-top: 26px;
+    padding: 12px 50px;
+    border-radius: 32px;
+}
+
+body#adv {
+    height: 100vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, .1)), color-stop(75%, rgba(22, 22, 22, .5)), to(#161616)), url(../images/bgpoke2.jpg);
+    background: linear-gradient(to bottom, rgba(22, 22, 22, .1) 0, rgba(22, 22, 22, .5) 75%, #161616 100%), url(../images/bgpoke2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#adv form {
+    border-radius: 33px;
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 50px;
+    -webkit-box-shadow: 2px 7px 57px 16px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 2px 7px 57px 16px rgba(0, 0, 0, 0.23);
+    box-shadow: 2px 7px 57px 16px rgba(0, 0, 0, 0.23);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section#content1,
+section#content2 {
+    display: none;
+    padding: 20px 0 0;
+    border-top: 1px solid #abc;
+}
+
+input#tab1,
+input#tab2 {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 15px 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #abc;
+    border: 1px solid transparent;
+}
+
+label:before {
+    font-family: fontawesome;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+label[for*='1']:before {
+    content: '\f1cb';
+}
+
+label[for*='2']:before {
+    content: '\f17d';
+}
+
+label:hover {
+    color: #789;
+    cursor: pointer;
+}
+
+input:checked+label {
+    color: #0af;
+    border: 1px solid #abc;
+    border-top: 2px solid #0af;
+    border-bottom: 1px solid #fff;
+}
+
+#tab1:checked~#content1,
+#tab2:checked~#content2 {
+    display: block;
+}
+
+.btn-1 {
+    background-color: #00AFD1;
+}
+
+#openFB {
+    position: absolute;
+    top: 14%;
+    right: 2%;
+    background-color: #00AFD1;
+    border: none;
+}

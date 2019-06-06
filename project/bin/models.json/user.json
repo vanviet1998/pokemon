@@ -1,0 +1,27 @@
+[
+    {
+        "_id": "5c972aea7c4bc6260c7eccc9",
+        "username": "jay", "password": "1", "email": "jayxx@gmail.com", 
+	    "status": true, "level": 3, "money": 99.9,
+	    "friends":["5c972aea7c4bc6260c7eccc6","5c972aea7c4bc6260c7eccc5","5c972aea7c4bc6260c7eccca"],
+	    "bag": "5c967d0adf6b630b8cf2f217","sex": false
+    },
+    {
+        "_id": "5c972aea7c4bc6260c7eccca",
+        "username": "admin", "password": "1", "email": "admin@gmail.com"
+    },
+    {
+        "_id": "5c972aea7c4bc6260c7eccc5",
+        "username": "tuan", "password": "123", "email": "tuandn@gmail.com", 
+	    "status": true, "level": 5, "money": 99.9,
+	    "friends":["5c972aea7c4bc6260c7eccc9","5c972aea7c4bc6260c7eccca","5c972aea7c4bc6260c7eccc6"],
+	    "bag": "5c967d0adf6b630b8cf2f218","sex": false
+    },
+    {
+        "_id": "5c972aea7c4bc6260c7eccc6",
+        "username": "viet", "password": "123", "email": "viettv@gmail.com", 
+	    "status": true, "level": 10, "money": 99.9,
+	    "friends":["5c972aea7c4bc6260c7eccc5","5c972aea7c4bc6260c7eccca","5c972aea7c4bc6260c7eccc9"],
+	    "bag": "5c967d0adf6b630b8cf2f219","sex": true
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "_id": "5c966feddf6b630b8cf2f814" ,
+        "nameItem": "PokeBall",
+        "imageItem": "images/Pokemon/ball1.png",
+        "number":[20,50,100],
+        "priceItem": 100 
+    }, 
+    {
+        "_id": "5c966feddf6b630b8cf2f819" ,
+        "nameItem": "Lucky Egg",
+        "imageItem": "images/Pokemon/lucky-egg.png",
+        "number":[25,50,100],
+        "priceItem":125
+
+    }
+   
+]

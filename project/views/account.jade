@@ -1,0 +1,65 @@
+extends ./header.jade
+block title
+  title MANAGER ACCOUNT
+block content
+  .container
+    .table-wrapper
+      .table-title
+        .row
+          .col-sm-8
+            h2
+              | User 
+              b MANAGER
+          .col-sm-4
+            .search-box
+              i.material-icons 
+              input.form-control(id='search',type='text', placeholder='Search…')
+      table#table.table.table-striped.table-hover.table-bordered
+        thead
+          tr
+            th username
+            th password
+            th email
+            th status 
+            th level
+            th money
+            th sex
+            th Custom
+        tbody
+          
+  #editEmployeeModal.modal.fade
+    .modal-dialog
+      .modal-content
+        form
+          .modal-header
+            h4.modal-title Edit User
+            button.close(type='button', data-dismiss='modal', aria-hidden='true') ×
+          .modal-body
+            .form-group
+              label UserName
+              input.form-control(id='username',type='text', required='')
+            input.form-control(id='id',type='hidden', required='')
+            .form-group
+              label pass
+              input.form-control(id='pass',type='text', required='')
+            .form-group
+              label email
+              input.form-control(id='email',required='',type='email')
+            .form-check
+              input.form-check-input(id='status',type='checkbox')
+              label.form-check-label(for='exampleCheck2') Status
+            .form-group
+              label level
+              input.form-control(id='level',type='text',required='')
+            .form-group
+              label money
+              input.form-control(id='money',type='text',required='')  
+            .form-check
+              input.form-check-input(id='sex',type='checkbox')
+              label.form-check-label(for='exampleCheck1') Sex
+          .modal-footer
+            input.btn.btn-default(type='button', data-dismiss='modal', value='Cancel')
+            input.btn.btn-info(id='save' type='button', value='Save',data-dismiss='modal')
+
+  script(type='text/javascript' src='/javascripts/admin.js')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js')

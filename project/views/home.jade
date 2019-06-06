@@ -1,0 +1,172 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    title Pokemon Go
+    link(rel="shortcut icon" href="images/pikachu.png")
+    link(rel="stylesheet", href="stylesheets/bootstrap.min.css")
+    link(rel="stylesheet", href="stylesheets/fonts/all.min.css")
+    link(href='https://fonts.googleapis.com/css?family=Varela+Round', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i', rel='stylesheet')
+    link(rel="stylesheet", href="stylesheets/grayscale.min.css")
+  body#page-top
+    // Navigation
+    nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top
+      .container
+        a.navbar-brand.js-scroll-trigger(href='#page-top',style=" position: relative;")
+          | PokéBiz <br/>
+          p(style="margin: 0;font-size: 12px;padding-left: 9px;") ute19-13
+          img(src="images/pikachu.png", alt="",style="width: 50px;position: absolute;top: 5px;left: -48px;")
+        button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+          | Menu
+          i.fas.fa-bars
+        #navbarResponsive.collapse.navbar-collapse
+          ul.navbar-nav.ml-auto
+            li.nav-item
+              a.nav-link.js-scroll-trigger(href='#about') About
+            li.nav-item
+              a.nav-link.js-scroll-trigger(href='#projects') Projects
+            li.nav-item
+              a.nav-link.js-scroll-trigger(href='#signup') Contact
+            li.nav-item
+              a.nav-link.js-scroll-trigger(href='/login') Login
+            li.nav-item
+              a.nav-link.js-scroll-trigger(href='/signinpokestop') Register Pokestop
+            li.nav-item
+              a.nav-link.js-scroll-trigger(href='/home/advertisement') Register Advertisement
+            li.nav-item
+              a.nav-link.js-scroll-trigger(href='/admin/ads') ADMIN
+    // Header
+    header.masthead
+      .container.d-flex.h-100.align-items-center
+        .mx-auto.text-center
+          h1.mx-auto.my-0.text-uppercase PLAY WITH US
+          a.btn.btn-primary.js-scroll-trigger(href='#about') Get Started
+    // About Section
+    section#about.about-section.text-center
+      .container
+        .row
+          .col-lg-8.mx-auto
+            h2.text-white.mb-4(style="font-size: 3.5rem;") PokéBiz by ute19-13
+            p.text-white-50
+              | Catch Pikachu !! Catch Meowth ... <br/>
+              | Let's go. Participation with Us for experience many interesting things on 
+              a(href='/login',style="color: #fff;font-weight: bold;") PokéBiz page <br/>
+            a.btn.btn-primary.js-scroll-trigger(href='/login') Go now
+        img.img-fluid(src='../images/pokemon-lets-go-box-art.png', alt='')
+    // Projects Section
+    section#projects.projects-section.bg-light
+      .container
+        // Featured Project Row
+        .row.align-items-center.no-gutters.mb-4.mb-lg-5
+          .col-xl-8.col-lg-7
+            img.img-fluid.mb-3.mb-lg-0(src='../images/blog1.jpg', alt='', style="border-radius: 19px;")
+          .col-xl-4.col-lg-5
+            .featured-text.text-center.text-lg-left
+              h4 Collections
+              p.text-black-50.mb-0
+                | Where is your collection ?? <br/>
+                | Let's go find pokemon and catch it to add on collection of you !
+        // Project One Row
+        .row.justify-content-center.no-gutters.mb-5.mb-lg-0
+          .col-lg-6
+            img.img-fluid(src='../images/blog2.jpg', alt='')
+          .col-lg-6
+            .bg-black.text-center.h-100.project
+              .d-flex.h-100
+                .project-text.w-100.my-auto.text-center.text-lg-left
+                  h4.text-white PoKéBall
+                  p.mb-0.text-white-50
+
+                  hr.d-none.d-lg-block.mb-0.ml-0
+        // Project Two Row
+        .row.justify-content-center.no-gutters
+          .col-lg-6.order-lg-first
+            .bg-black.text-center.h-100.project
+              .d-flex.h-100
+                .project-text.w-100.my-auto.text-center.text-lg-right
+                  h4.text-white Pikachu
+                  p.mb-0.text-white-50
+                    | Get a Pokémon TCG Card When You See POKÉMON Detective Pikachu
+                  hr.d-none.d-lg-block.mb-0.mr-0
+          .col-lg-6
+            img.img-fluid(src='../images/movie-card.jpg', alt='')
+        .qcLeft
+          each i in adv
+            .qc
+              a(href="#{i.link}")
+                img(src="#{i.image}", alt="Xem trang nguồn")
+        .qcRight
+          each i in adv
+            .qc
+               a(href="#{i.link}")
+                img(src="#{i.image}", alt="Xem trang nguồn")
+    // Signup Section
+    section#signup.signup-section
+      .container
+        .row
+          .col-md-10.col-lg-8.mx-auto.text-center
+            i.far.fa-paper-plane.fa-2x.mb-2.text-white
+            h2.text-white.mb-5 Subscribe to receive updates!
+            form.form-inline.d-flex
+              input#inputEmail.form-control.flex-fill.mr-0.mr-sm-2.mb-3.mb-sm-0(type='email', placeholder='Enter email address...')
+              button.btn.btn-primary.mx-auto(type='submit') Subscribe
+    // Contact Section
+    section.contact-section.bg-black
+      .container
+        .row
+          .col-md-4.mb-3.mb-md-0
+            .card.py-4.h-100
+              .card-body.text-center
+                i.fas.fa-map-marked-alt.text-primary.mb-2
+                h4.text-uppercase.m-0 Address
+                hr.my-4
+                .small.text-black-50 01 Vo Van Ngan, Thu Duc district, HCM
+          .col-md-4.mb-3.mb-md-0
+            .card.py-4.h-100
+              .card-body.text-center
+                i.fas.fa-envelope.text-primary.mb-2
+                h4.text-uppercase.m-0 Email
+                hr.my-4
+                .small.text-black-50
+                  a(href='#') hello@yourdomain.com
+          .col-md-4.mb-3.mb-md-0
+            .card.py-4.h-100
+              .card-body.text-center
+                i.fas.fa-mobile-alt.text-primary.mb-2
+                h4.text-uppercase.m-0 Phone
+                hr.my-4
+                .small.text-black-50 +123456789
+        .social.d-flex.justify-content-center
+          a.mx-2(href='#')
+            i.fab.fa-twitter
+          a.mx-2(href='#')
+            i.fab.fa-facebook-f
+          a.mx-2(href='#')
+            i.fab.fa-github
+    // Footer
+    footer.bg-black.small.text-center.text-white-50
+      .container
+        | Copyright © Your Website 2019
+
+
+
+    script(type='text/javascript' src='/javascripts/vendor/jquery-3.2.1.min.js')
+    script(type='text/javascript' src='/javascripts/vendor/bootstrap.bundle.min.js')
+    script(type='text/javascript' src='/javascripts/vendor/jquery.easing.min.js')
+    script(type='text/javascript' src='/javascripts/vendor/grayscale.min.js')
+    script.
+      var video = $('#myVideo');
+      var btn = $('#myBtn');
+      $('#myBtn').click(function() {
+
+        if (video.paused) {
+            video.play();
+            btn.innerHTML = "Pause";
+        } else {
+            video.get(0).pause();
+            btn.innerHTML = "Play";
+        }
+      })

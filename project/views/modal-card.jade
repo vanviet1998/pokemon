@@ -1,0 +1,61 @@
+#cardModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+  .modal-dialog(role='document',style="max-width:900px")
+    .modal-content
+      .modal-header
+        span(style="display:inline-flex")
+            img(src="images/card.png", alt="card",width="40" height="40")
+            h5(style="margin: 0;margin-top: 8px;margin-left: 10px;font-weight: bold;") Thẻ PokeCoin
+        input(type="image" src="images/close2.png" alt="Submit" width="48" height="48",data-dismiss='modal', aria-label='Close')
+        #messCard.alert.alert-success.bounceInDown.d-none(style="position: absolute;right: 100px;") nap thanh cong
+      .modal-body
+        .row
+            .col-md-6
+                table.table(style="font-size: 14px;")
+                    thead(style="font-weight: unset;color: #d43831;")
+                        tr
+                            th Giá
+                            th Thêm điểm
+                    tbody
+                        tr
+                            td 20,000 VND
+                            td Vàng x 400
+                        tr
+                            td 50,000 VND
+                            td Vàng x 1000
+                        tr
+                        tr
+                            td 100,000 VND
+                            td Vàng x 2000
+                        tr
+                        tr
+                            td 200,000 VND
+                            td Vàng x 4000
+                        tr
+                        tr
+                            td 500,000 VND
+                            td Vàng x 10000
+                        tr
+            .col-md-6
+                input#tab1(type='radio', name='tabs', checked='')
+                label(for='tab1') Thẻ PokeCoin
+                input#tab2(type='radio', name='tabs')
+                label(for='tab2') Paypal
+                input#tab3(type='radio', name='tabs')
+                label(for='tab3') Onepay
+                section#content1
+                    form(style="padding: 20px 20px;")
+                        p(htmlFor="coin") Mã nạp thẻ PokeCoin:
+                        input#coin(type='text', name='coin', placeholder="Mã nạp thẻ PokeCoin")
+                        br
+                        input#submit1(type="button" value="Xác nhận")
+                section#content2
+                    form(style="padding: 20px 20px;", method="post", action="/bags/pay/")
+                        input#price(name="price",type="text", placeholder="Nhập tiền số tiền cần chuyển đổi")
+                        input(type="submit" value="Xác nhận")
+                section#content3
+                    form(style="padding: 20px 20px;", method="post", action="/admin/pokemon/pay")
+                        input#price(name="price",type="text", placeholder="Nhập tiền số tiền cần chuyển đổi")
+                        input(type="submit" value="Xác nhận")
+                
+                
+            
